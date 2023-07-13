@@ -1,18 +1,18 @@
 <template>
-  <NavBar />
+  <Header />
 </template>
 
 <script>
 import { defineComponent } from "vue";
 
 // Components
-import NavBar from "../components/NavBar.vue";
+import Header from "../components/Header.vue";
 
 export default defineComponent({
   name: "HomeView",
 
   components: {
-    NavBar,
+    Header,
   },
 });
 </script>
