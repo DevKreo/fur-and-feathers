@@ -6,7 +6,12 @@
       :height="80"
       :width="600"
     >
-      <v-img src="../assets/Group_1.png" :height="42" :width="50" class="mx-auto"></v-img>
+      <v-img
+        src="../assets/Group_1.png"
+        :height="42"
+        :width="50"
+        class="mx-auto mb-4"
+      ></v-img>
       <v-divider :thickness="1" class="head_divider"></v-divider>
     </v-sheet>
   </div>
@@ -14,7 +19,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "MainHeader",
 
   data: () => ({}),
 };
